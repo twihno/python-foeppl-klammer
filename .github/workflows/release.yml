@@ -1,9 +1,9 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [created]
+  workflow_dispatch:
 
 jobs:
   build-and-publish:
@@ -21,5 +21,6 @@ jobs:
     - name: Publish
       uses: pypa/gh-action-pypi-publish@master
       with:
-        password: ${{ secrets.pypi_password }}
+        password: ${{ secrets.PYPI_API_TOKEN }}
         skip_existing: true
+        verbose: true
