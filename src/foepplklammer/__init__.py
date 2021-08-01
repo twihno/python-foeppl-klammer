@@ -1,6 +1,6 @@
 """init foepplklamemr"""
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 import numpy as np
 from .foepplklammernp import foeppl_np
