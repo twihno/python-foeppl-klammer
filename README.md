@@ -35,10 +35,10 @@ Wie oben mit der Außnahme, dass 0 für x<=a gilt
 ### foepplklammernp
 Funktionen für numpy arrays
 
-```foeppl(var_x, grenze_a, potenz_n)```
+```foeppl_np(var_x, grenze_a, potenz_n)```
 
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1724320022637ecb47d28a280511c1b394125f2d">
 
-```foeppl_inkl_null(var_x, grenze_a, potenz_n)```
+```foeppl_np_inkl_null(var_x, grenze_a, potenz_n)```
 
 Wie oben mit der Außnahme, dass 0 für x<=a gilt
